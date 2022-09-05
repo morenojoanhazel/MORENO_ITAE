@@ -5,8 +5,7 @@ body.body-one{
 }
 tr, table{
 		padding:10px;
-		border-collapse:collapse;
-		
+		border-collapse:collapse;	
 	}
 	li{
 		margin-left:37px;
@@ -47,16 +46,25 @@ tr, table{
 		background-color:#14A098; 
 		color:whitesmoke; 
 		padding:15px; 
-		font-size: 52px; 
+		font-size: 55px; 
 		border:3px inset black;
-		letter-spacing: 2px;
+		word-spacing: 5px;
 		margin-top: 0;
+		font-weight:100%;
+		text-transform: uppercase;
+		-webkit-text-stroke-width: 0.1px;
+    	-webkit-text-stroke-color: rgb(9, 88, 94);
+	}
+	
+	div.div-start{
+		margin:0 40px 0 20px; 
+		background-color:#0F292F;
 	}
 	img.logo{
 		height: 105px;
 		width:130px;
 		float:left;
-		margin: 0px 0px 0px 65px;
+		margin: 15px 0px 0px 65px;
 	}
 	div.first{
 		background-color:#222629;
@@ -66,9 +74,9 @@ tr, table{
 		margin-top: 0;
 		color: whitesmoke;
 		font-family:Verdana, Geneva, Tahoma, sans-serif;
-	    padding-top: 30px;
-		margin-left: 220px;
-		font-size: 50px;
+	    padding-top: 43px;
+		margin-left: 230px;
+		font-size: 52px;
 	}
 	div.genre{
 		max-width: 45%;
